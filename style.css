@@ -52,7 +52,7 @@
     text-transform: capitalize;
   }
   
-  .contact-link,
+  .contact-link ,
   .app-link {
     background: var(--primary-color);
     box-shadow: var(--box-shadow);
@@ -104,11 +104,21 @@
     p {
       text-align: center;
     }
-  
+}
 .project-link {
       display: block;
       text-align: center;
       margin: 0 20px;
     }
-  }
-  
+    .primary-link{
+ background: var(--primary-color);
+        box-shadow: var(--box-shadow);
+        color: white;
+        border-radius: 4px;
+        padding: 20px 15px;
+        text-decoration: none;
+        text-transform: capitalize;
+
+
+
+    }
